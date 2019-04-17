@@ -1,4 +1,4 @@
-//return true if average of a pair of element in array exists
+//Requirement- create function that takes array of integers and an int that is a target. average. return true if there is a pair of elements whose average equals the target
 //create min and max pointers
 //if avg is less than min or greater than max, return false
 //while min is less than length and max is greater than 0, compare current avg or target avg
@@ -8,7 +8,6 @@
 
 
 function averagePair(nums, target){
-  // add whatever parameters you deem necessary - good luck!
   let min = 0;
   let max = nums.length -1
   
